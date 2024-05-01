@@ -1,0 +1,19 @@
+.contactContainer {
+  margin-bottom: 10px;
+}
+
+.contactName {
+  font-weight: bold;
+}
+
+.contactNumber {
+  color: #888;
+}
+
+.deleteButton {
+  color: red;
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin-left: 5px;
+}

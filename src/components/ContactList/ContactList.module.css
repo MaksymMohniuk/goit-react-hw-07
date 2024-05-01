@@ -1,0 +1,27 @@
+.contactListContainer {
+  margin-top: 20px;
+}
+
+.contactListItem {
+  list-style: none;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contactListItem:hover {
+  background-color: #f4f4f4;
+}
+
+.contactName {
+  font-weight: bold;
+}
+
+.contactDeleteButton {
+  color: red;
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin-left: 5px;
+}
