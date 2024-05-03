@@ -10,13 +10,13 @@ export const requestContacts = async () => {
   return data;
 };
 
-export const addContact = async (contactData) => {
+export const apiAddContact = async (contactData) => {
   const { data } = await instance.post(`/contacts`, contactData);
 
   return data;
 };
 
-export const deleteContact = async (contactId) => {
+export const apiDeleteContact = async (contactId) => {
   const { data } = await instance.delete(`/contacts/${contactId}`);
 
   return data;
